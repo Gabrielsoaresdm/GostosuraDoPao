@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gostosura do Pão</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+  <!-- Swiper CSS -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <div class="logo-area">
+        <img src="src/Imagens/Sem nome (5759 x 3522 px).png" alt="Logo da empresa">
+        <span class="logo-text">Gostosura do Pão</span>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburguer">&#9776;</label>
+      <nav class="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+  
+
+  <!-- Hero / Início -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <div class="hero-text animar-esquerda">
+        <h1>Qualidade e Tradição em Cada Produto</h1>
+        <p>Oferecemos pães, bolos, salgados e doces de alta qualidade, com produtos frescos e feitos com os melhores ingredientes. Com experiência no mercado, garantimos entregas pontuais, preços competitivos e atendimento personalizado para atender às necessidades da sua empresa.</p>
+        <a href="#contato" class="botao">Entre em Contato Conosco</a>
+      </div>
+      <!-- <div class="hero-img">
+        <img src="src/Imagens/bread-6570934_1280.jpg" alt="Cesta de pães artesanais">
+      </div> -->
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <!-- Título centralizado acima -->
+      <h2 class="titulo-sobre">Conheça a Gostosura do Pão</h2>
+      
+      <!-- Bloco com imagem à esquerda e texto à direita -->
+      <div class="sobre-flex">
+        <div class="imagem">
+          <img src="https://img.freepik.com/fotos-gratis/paes-frescos-cozidos-em-forno_140725-2066.jpg?t=st=1745443034~exp=1745446634~hmac=2edeb385d8b67619ae5df5b180a2bf2bd18e5f5afb17a57fa5b71d44504d7426&w=900" alt="Linha de produção de pães">
+        </div>
+        <div class="texto">
+          <p>Com tradição e excelência em panificação, a Gostosura do Pão é especializada no fornecimento de produtos de alta qualidade
+             para mercados, cafeterias e empresas. Fundada por [Nome do Fundador] em [Ano de Fundação], nossa missão sempre foi garantir sabor
+             irresistível, qualidade superior e uma experiência única aos nossos clientes.
+             Com mais de [X] anos de história, mantemos a produção em escala, sem abrir mão do cuidado e da qualidade que fazem a diferença em cada receita.
+             A cada pão, buscamos preservar a essência do sabor fresco e autêntico, oferecendo produtos que atendem às necessidades do seu negócio e do seu dia a dia.
+             Seja para sua casa, seu café ou para o seu negócio, a Gostosura do Pão é a escolha certa para quem busca o melhor da panificação, com a confiança de quem entende o que faz.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="produtos" class="produtos"> 
+    <div class="container">
+      <h2>Linha de Produtos</h2>
+      
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Pão artesanal">
+            <h3>Pão de Fermentação Natural</h3>
+            <p>Sabor artesanal único</p>
+          </div>
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1604152135912-04a022e23659" alt="Bolo caseiro">
+            <h3>Bolos</h3>
+            <p>Receitas caseiras de alta qualidade</p>
+          </div>
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
+            <h3>Doces</h3>
+            <p>Perfeito para coffee breaks</p>
+          </div>
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
+            <h3>Doces</h3>
+            <p>Perfeito para coffee breaks</p>
+          </div>
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
+            <h3>Doces</h3>
+            <p>Perfeito para coffee breaks</p>
+          </div>
+          <div class="swiper-slide card">
+            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
+            <h3>abobora</h3>
+            <p>Perfeito para coffee breaks</p>
+          </div>
+        </div>
+  
+        
+  
+        <!-- Paginação -->
+        <div class="swiper-pagination"></div>
+        <!-- Botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="diferenciais" class="diferenciais">
+    <div class="container">
+      <h2>Atendemos Sua Empresa</h2>
+      <div class="icones">
+        <div>
+          <img src="src/Imagens/demanda.png" alt="Produção sob demanda">
+          <p>Produção sob demanda</p>
+        </div>
+        <div>
+          <img src="src/Imagens/entrega-rapida.png" alt="Entregas programadas">
+          <p>Entregas programadas</p>
+        </div>
+        <div>
+          <img src="src/Imagens/certificacao.png" alt="Certificação">
+          <p>Certificações de qualidade</p>
+        </div>
+        <div>
+          <img src="src/Imagens/atendimento-ao-cliente.png" alt="Atendimento personalizado">
+          <p>Atendimento personalizado</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="atuacao" class="atuacao">
+    <div class="container">
+      <h2>Onde Nós Atuamos</h2>
+      <p>Atendemos diversas regiões da cidade do Rio de Janeiro, com agilidade e pontualidade.</p>
+  
+      <div class="regioes">
+        <div class="regiao-card">
+          <img src="https://img.icons8.com/ios-filled/50/8b0000/city.png" alt="Zona Norte">
+          <h3>Rio de Janeiro</h3>
+          <p>Centro, Zona Sul, Zona Norte, Zona Oeste</p>
+        </div>
+        <div class="regiao-card">
+          <img src="https://img.icons8.com/ios-filled/50/8b0000/city.png" alt="Zona Sul">
+          <h3>Baixada</h3>
+          <p>Duque de Caxias, Nova Iguaçu, São João de Meriti, Belford Roxo e Nilópolis</p>
+        </div>
+        <div class="regiao-card">
+          <img src="https://img.icons8.com/ios-filled/50/8b0000/city.png" alt="Zona Oeste">
+          <h3>Niterói</h3>
+          <p>Icaraí, Ingá, Centro, São Francisco, Jurujuba, Camarão, Santa Rosa, Alto da Boa Vista, Pendotiba, Rio do Ouro, Maria Paula, Charitas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Fale Conosco</h2>
+      <p>Preencha o formulário abaixo para que possamos entender melhor sua necessidade:</p>
+  
+      <form onsubmit="enviarFormulario(event)">
+        <div class="form-group">
+          <input type="text" id="nome" placeholder="Nome" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+        </div>
+  
+        <div class="form-group">
+          <input type="text" id="telefone" placeholder="Telefone/Whatsapp" required>
+          <input type="text" id="cidade" placeholder="Cidade" required>
+        </div>
+  
+        <div class="form-group">
+          <input type="text" id="cnpj" placeholder="CNPJ (opcional)">
+          <input type="text" id="modelo" placeholder="Modelo de Negócio (Ex: Cafeteria, Padaria...)" required>
+        </div>
+  
+        <div class="interesses">
+          <p>Interesse em:</p>
+          <label><input type="checkbox" name="interesse" value="Pães"> Pães</label>
+          <label><input type="checkbox" name="interesse" value="Doces"> Doces</label>
+          <label><input type="checkbox" name="interesse" value="Salgados"> Salgados</label>
+        </div>
+  
+        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+  
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="footer-info">
+        <h3>Gostosura do Pão</h3>
+        <p>Excelência em sabor, confiança para o seu negócio.</p>
+      </div>
+  
+      <div class="footer-contato">
+        <h4>Contato</h4>
+        <p><strong>WhatsApp:</strong> (21) 96465-5147</p>
+        <p><strong>Telefone:</strong> (21) 96565-5147</p>
+        <p><strong>E-mail:</strong> contato@gostosuradopao.com.br</p>
+      </div>
+  
+      <div class="footer-social">
+        <h4>Siga-nos</h4>
+        <div class="social-icons">
+          <a href="https://wa.me/5521964655147" aria-label="Instagram"><img src="src/Imagens/whatsapp.png" alt="Instagram"></a>
+          <a href="#" aria-label="Facebook"><img src="src/Imagens/instagram.png" alt="Facebook"></a>
+          <a href="#" aria-label="LinkedIn"><img src="src/Imagens/linkedin.png" alt="LinkedIn"></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-copy">
+      <p>&copy; 2025 Gostosura do Pão. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  
+  <a href="https://wa.me/5521964655147" class="whatsapp-float" target="_blank" aria-label="Fale conosco pelo WhatsApp">
+    <div class="whatsapp-content">
+      <img src="src/Imagens/whatsapp2.png" alt="WhatsApp" class="whatsapp-icon" />
+      <span class="whatsapp-text">Fale Conosco pelo WhatsApp</span>
+    </div>
+  </a>
+  
+  
+
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="src/javascript/script.js"></script>
+</body>
+</html>
