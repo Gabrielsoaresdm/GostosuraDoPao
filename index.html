@@ -8,12 +8,11 @@
   <!-- Swiper CSS -->
   <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
 
 </head>
 <body>
-
   <!-- Navbar -->
   <header class="navbar">
     <div class="container navbar-container">
@@ -28,6 +27,7 @@
         <a href="#sobre">Sobre</a>
         <a href="#produtos">Produtos</a>
         <a href="#diferenciais">Diferenciais</a>
+        <a href="#atuacao">Atuação</a>
         <a href="#contato">Contato</a>
       </nav>
     </div>
@@ -42,9 +42,6 @@
         <p>Oferecemos pães, bolos, salgados e doces de alta qualidade, com produtos frescos e feitos com os melhores ingredientes. Com experiência no mercado, garantimos entregas pontuais, preços competitivos e atendimento personalizado para atender às necessidades da sua empresa.</p>
         <a href="#contato" class="botao">Entre em Contato Conosco</a>
       </div>
-      <!-- <div class="hero-img">
-        <img src="src/Imagens/bread-6570934_1280.jpg" alt="Cesta de pães artesanais">
-      </div> -->
     </div>
   </section>
 
@@ -56,69 +53,70 @@
       <!-- Bloco com imagem à esquerda e texto à direita -->
       <div class="sobre-flex">
         <div class="imagem">
-          <img src="https://img.freepik.com/fotos-gratis/paes-frescos-cozidos-em-forno_140725-2066.jpg?t=st=1745443034~exp=1745446634~hmac=2edeb385d8b67619ae5df5b180a2bf2bd18e5f5afb17a57fa5b71d44504d7426&w=900" alt="Linha de produção de pães">
+          <img src="src/Imagens/paes-frescos-cozidos-em-forno.jpg" alt="Linha de produção de pães">
         </div>
         <div class="texto">
-          <p>Com tradição e excelência em panificação, a Gostosura do Pão é especializada no fornecimento de produtos de alta qualidade
-             para mercados, cafeterias e empresas. Fundada por [Nome do Fundador] em [Ano de Fundação], nossa missão sempre foi garantir sabor
-             irresistível, qualidade superior e uma experiência única aos nossos clientes.
-             Com mais de [X] anos de história, mantemos a produção em escala, sem abrir mão do cuidado e da qualidade que fazem a diferença em cada receita.
-             A cada pão, buscamos preservar a essência do sabor fresco e autêntico, oferecendo produtos que atendem às necessidades do seu negócio e do seu dia a dia.
-             Seja para sua casa, seu café ou para o seu negócio, a Gostosura do Pão é a escolha certa para quem busca o melhor da panificação, com a confiança de quem entende o que faz.
+          <p>Aos 13 anos de idade, ainda um menino cheio de sonhos, inicia sua trajetória profissional na empresa de seu pai, uma padaria no subúrbio do Rio de Janeiro, onde ali seria sua grande escola de aprendizado e desenvolvimento.
+
+Aos 19 anos, já um homem, pai, inicia sua caminhada solo, na sua própria empresa. Isso acontece em 1992, e foram 18 anos de muito trabalho, quando, em 2010, Gustavo toma um novo rumo, saindo de uma padaria pequena e montando assim uma fábrica completamente nova e moderna para atender empresas.
+
+Com muito conhecimento em seu ramo, inovação e criatividade, a Gostosura do Pão vem, ao longo desses 15 anos, se destacando na indústria de panificação.
+
+Uma empresa consolidada e respeitada na sua área de atuação, vem, ao longo dos anos, crescendo e sendo uma referência em bom atendimento e ótimos produtos.
+
+Com uma gama de
+produtos muito bem elaborados, atende as maiores empresas na área de cozinha industrial, além de empresas próprias, e tem se tornado uma referência em atendimento a hospitais.
           </p>
         </div>
       </div>
     </div>
   </section>
+
+
   <section id="produtos" class="produtos"> 
     <div class="container">
       <h2>Linha de Produtos</h2>
-      
-      <!-- Swiper -->
-      <div class="swiper mySwiper">
+  
+      <!-- Carrossel desktop (2 imagens grandes) -->
+      <div class="swiper desktopSwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Pão artesanal">
-            <h3>Pão de Fermentação Natural</h3>
-            <p>Sabor artesanal único</p>
+          <div class="swiper-slide">
+            <img src="src/Imagens/coffebreak - nossos produtos.jfif" alt="Pão artesanal">
           </div>
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1604152135912-04a022e23659" alt="Bolo caseiro">
-            <h3>Bolos</h3>
-            <p>Receitas caseiras de alta qualidade</p>
-          </div>
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
-            <h3>Doces</h3>
-            <p>Perfeito para coffee breaks</p>
-          </div>
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
-            <h3>Doces</h3>
-            <p>Perfeito para coffee breaks</p>
-          </div>
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
-            <h3>Doces</h3>
-            <p>Perfeito para coffee breaks</p>
-          </div>
-          <div class="swiper-slide card">
-            <img src="https://images.unsplash.com/photo-1514516870926-205192d8a5f4" alt="Croissant">
-            <h3>abobora</h3>
-            <p>Perfeito para coffee breaks</p>
+          <div class="swiper-slide">
+            <img src="src/Imagens/Bolo - nossos produtos.jfif" alt="Bolo caseiro">
           </div>
         </div>
-  
-        
-  
-        <!-- Paginação -->
         <div class="swiper-pagination"></div>
-        <!-- Botões de navegação -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+  
+      <!-- Carrossel celular (4 imagens cortadas) -->
+      <div class="swiper mobileSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="src/Imagens/coffebreak - nossos produtos corte1.jpg" alt="Cortada 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="src/Imagens/coffebreak - nossos produtos corte2.jpg" alt="Cortada 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="src/Imagens/coffebreak - nossos produtos corte3.jpg" alt="Cortada 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="src/Imagens/coffebreak - nossos produtos corte4.jpg" alt="Cortada 4">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
     </div>
   </section>
+  
+  
+  
   
   <section id="diferenciais" class="diferenciais">
     <div class="container">
@@ -163,46 +161,52 @@
         <div class="regiao-card">
           <img src="https://img.icons8.com/ios-filled/50/8b0000/city.png" alt="Zona Oeste">
           <h3>Niterói</h3>
-          <p>Icaraí, Ingá, Centro, São Francisco, Jurujuba, Camarão, Santa Rosa, Alto da Boa Vista, Pendotiba, Rio do Ouro, Maria Paula, Charitas.</p>
+          <p>Icaraí, Ingá, Centro, São Francisco, Jurujuba, Camarão, Santa Rosa, Alto da Boa Vista, Pendotiba, Rio do Ouro, Maria Paula, Charitas, etc.</p>
+        </div>
+        <div class="regiao-card">
+          <img src="https://img.icons8.com/ios-filled/50/8b0000/city.png" alt="Zona Oeste">
+          <h3>São Gonçalo</h3>
+          <p>Alcântara, Neves, Parada 40, Trindade, Porto da Madama, Mutondo, Colubandê, Rocha, Coelho, Boaçu, Ipiíba, Galo Branco, Porto Novo, Gradim, etc.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="contato" class="contato">
-    <div class="container">
-      <h2>Fale Conosco</h2>
-      <p>Preencha o formulário abaixo para que possamos entender melhor sua necessidade:</p>
-  
-      <form onsubmit="enviarFormulario(event)">
-        <div class="form-group">
-          <input type="text" id="nome" placeholder="Nome" required>
-          <input type="email" id="email" placeholder="E-mail" required>
-        </div>
-  
-        <div class="form-group">
-          <input type="text" id="telefone" placeholder="Telefone/Whatsapp" required>
-          <input type="text" id="cidade" placeholder="Cidade" required>
-        </div>
-  
-        <div class="form-group">
-          <input type="text" id="cnpj" placeholder="CNPJ (opcional)">
-          <input type="text" id="modelo" placeholder="Modelo de Negócio (Ex: Cafeteria, Padaria...)" required>
-        </div>
-  
-        <div class="interesses">
-          <p>Interesse em:</p>
-          <label><input type="checkbox" name="interesse" value="Pães"> Pães</label>
-          <label><input type="checkbox" name="interesse" value="Doces"> Doces</label>
-          <label><input type="checkbox" name="interesse" value="Salgados"> Salgados</label>
-        </div>
-  
-        <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
-  
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-  </section>
+<section id="contato" class="contato">
+  <div class="container">
+    <h2>Fale Conosco</h2>
+    <p>Preencha o formulário abaixo para que possamos entender melhor sua necessidade:</p>
+
+    <form id="form-contato">
+      <div class="form-group">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="telefone" placeholder="Telefone/Whatsapp" required>
+        <input type="text" id="cidade" placeholder="Cidade" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="cnpj" placeholder="CNPJ (opcional)">
+        <input type="text" id="modelo" placeholder="Modelo de Negócio (Ex: Cafeteria, Padaria...)" required>
+      </div>
+
+      <div class="interesses">
+        <p>Interesse em:</p>
+        <label><input type="checkbox" name="interesse" value="Pães"> Pães</label>
+        <label><input type="checkbox" name="interesse" value="Doces"> Doces</label>
+        <label><input type="checkbox" name="interesse" value="Salgados"> Salgados</label>
+      </div>
+
+      <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+
   
   
 
@@ -218,13 +222,15 @@
         <p><strong>WhatsApp:</strong> (21) 96465-5147</p>
         <p><strong>Telefone:</strong> (21) 96565-5147</p>
         <p><strong>E-mail:</strong> contato@gostosuradopao.com.br</p>
+        <p><strong>Endereço:</strong> Rua Braga 182, Penha Circular</p>
+        
       </div>
   
       <div class="footer-social">
         <h4>Siga-nos</h4>
         <div class="social-icons">
           <a href="https://wa.me/5521964655147" aria-label="Instagram"><img src="src/Imagens/whatsapp.png" alt="Instagram"></a>
-          <a href="#" aria-label="Facebook"><img src="src/Imagens/instagram.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/gostosura.dopao?igsh=bHpzN3htM3AxODR3" aria-label="Facebook"><img src="src/Imagens/instagram.png" alt="Facebook"></a>
           <a href="#" aria-label="LinkedIn"><img src="src/Imagens/linkedin.png" alt="LinkedIn"></a>
         </div>
       </div>
@@ -245,7 +251,7 @@
   
 
   <!-- SwiperJS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="src/javascript/script.js"></script>
 </body>
 </html>
